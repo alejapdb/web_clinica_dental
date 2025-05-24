@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Dental Sonria | Estética Dental</title>
+    <link rel="stylesheet" href="estetica.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/tooth.png" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><i class="fas fa-tooth"></i> Sonria</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="estetica.html" class="active">Estética Dental</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Estética Dental</h2>
+                <p>Consigue la sonrisa perfecta que siempre has deseado con nuestros tratamientos de última generación.</p>
+                <a href="#contacto" class="btn">¡Agenda tu consulta!</a>
+            </div>
+        </section>
+
+        <section class="tratamiento">
+            <h2 class="titulo">Nuestros Tratamientos</h2>
+            <div class="tratamiento-grid">
+                <div class="card">
+                    <i class="fas fa-teeth"></i>
+                    <h3>1. Blanqueamiento Dental</h3>
+                    <p>Elimina manchas y aclara varios tonos tu sonrisa en una sola sesión.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-tooth"></i>
+                    <h3>2. Carillas Dentales</h3>
+                    <p>Corrige forma, color y posición de tus dientes con resultados naturales.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-gem"></i>
+                    <h3>3. Diseño de Sonrisa</h3>
+                    <p>Plan personalizado para lograr la sonrisa armónica y perfecta para ti.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="beneficios">
+            <h2>Beneficios</h2>
+            <ul>
+                <li><i class="fas fa-check"></i> Resultados inmediatos y visibles</li>
+                <li><i class="fas fa-check"></i> Mejora considerable de tu autoestima</li>
+                <li><i class="fas fa-check"></i> Técnicas mínimamente invasivas</li>
+                <li><i class="fas fa-check"></i> Materiales de alta calidad y naturalidad</li>
+                <li><i class="fas fa-check"></i> Personalizado a tus características faciales</li>
+            </ul>
+        </section>
+
+        <!-- Sección de testimonio -->
+        <section class="testimonio-destacado">
+            <div class="testimonio-contenido">
+                <div class="testimonio-imagen">
+                    <img src="assets/img/testimonio_estetica.jpg" alt="Paciente satisfecho con estética dental">
+                </div>
+                <div class="testimonio-texto">
+                    <blockquote>
+                        "El diseño de sonrisa cambió completamente mi apariencia. Ahora me siento segura al sonreír y mi confianza ha aumentado enormemente."
+                    </blockquote>
+                    <p>- Laura M., Paciente satisfecha</p>
+                    <a href="testimonios.html" class="btn">Ver más testimonios</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>¿Listo para transformar tu sonrisa?</h2>
+            <form id="form-cita">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo" required>
+                <input type="tel" placeholder="Teléfono" required>
+                <select required>
+                    <option value="" disabled selected>Selecciona tratamiento</option>
+                    <option value="blanqueamiento">Blanqueamiento Dental</option>
+                    <option value="carillas">Carillas Dentales</option>
+                    <option value="diseno">Diseño de Sonrisa</option>
+                    <option value="consulta">Consulta inicial</option>
+                </select>
+                <textarea placeholder="Mensaje (opcional)"></textarea>
+                <button type="submit" class="btn">Solicitar consulta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-light py-5">
+        <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2023 - Clínica Dental Sonría.</div></div>
+    </footer>
+
+    <script src="estetica.js"></script>
+</body>
+</html>
