@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Dental Sonria | Implantes Dentales</title>
+    <link rel="stylesheet" href="implantes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/tooth.png" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><i class="fas fa-tooth"></i> Sonria</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="implantes.html" class="active">Implantes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Implantes Dentales</h2>
+                <p>Recupera tu sonrisa y funcionalidad dental con nuestros implantes de última generación.</p>
+                <a href="#contacto" class="btn">¡Agenda tu consulta!</a>
+            </div>
+        </section>
+
+        <section class="tratamiento">
+            <h2 class="titulo">Nuestros Tratamientos</h2>
+            <div class="tratamiento-grid">
+                <div class="card">
+                    <i class="fas fa-teeth"></i>
+                    <h3>1. Implante Unitario</h3>
+                    <p>Solución ideal para reemplazar un solo diente perdido.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-teeth-open"></i>
+                    <h3>2. Puente sobre Implantes</h3>
+                    <p>Reemplaza varios dientes consecutivos con máxima estabilidad.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-teeth"></i>
+                    <h3>3. All-on-4/All-on-6</h3>
+                    <p>Solución completa para arcadas dentales con pocos implantes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="beneficios">
+            <h2>Beneficios</h2>
+            <ul>
+                <li><i class="fas fa-check"></i> Función masticatoria completa</li>
+                <li><i class="fas fa-check"></i> Aspecto natural</li>
+                <li><i class="fas fa-check"></i> Protege el hueso maxilar</li>
+                <li><i class="fas fa-check"></i> Durabilidad a largo plazo</li>
+                <li><i class="fas fa-check"></i> No daña dientes adyacentes</li>
+            </ul>
+        </section>
+
+        <!-- Sección de testimonio -->
+        <section class="testimonio-destacado">
+            <div class="testimonio-contenido">
+                <div class="testimonio-imagen">
+                    <img src="assets/img/testimonio_implante.png" alt="Paciente satisfecho con implantes dentales">
+                </div>
+                <div class="testimonio-texto">
+                    <blockquote>
+                        "Los implantes cambiaron mi vida. Ahora puedo comer de todo y sonreír con confianza. El equipo de Sonría hizo el proceso muy cómodo."
+                    </blockquote>
+                    <p>- Alonso L., Paciente satisfecho</p>
+                    <a href="testimonios.html" class="btn">Ver más testimonios</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>¿Listo para recuperar tu sonrisa?</h2>
+            <form id="form-cita">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo" required>
+                <input type="tel" placeholder="Teléfono" required>
+                <select required>
+                    <option value="" disabled selected>Selecciona tratamiento</option>
+                    <option value="unitario">Implante Unitario</option>
+                    <option value="puente">Puente sobre Implantes</option>
+                    <option value="allon4">All-on-4/All-on-6</option>
+                    <option value="consulta">Consulta inicial</option>
+                </select>
+                <textarea placeholder="Mensaje (opcional)"></textarea>
+                <button type="submit" class="btn">Solicitar consulta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-light py-5">
+        <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2023 - Clínica Dental Sonría.</div></div>
+    </footer>
+
+    <script src="implantes.js"></script>
+</body>
+</html>
